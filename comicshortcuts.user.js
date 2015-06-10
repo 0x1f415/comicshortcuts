@@ -28,8 +28,6 @@ if (base.split('.')[1] === 'tumblr' && window.location.href.split('/')[3] === 'p
 function handleKeypress(e) {
 	var char = e.keyCode;
 
-	GM_log(char);
-
 	if (!char) return; // special key
 
 	switch (char) {
